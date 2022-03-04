@@ -1,0 +1,27 @@
+body{
+    background-color: black;
+}
+#box{
+display: flex;
+height: 200px;
+width: 200px;
+background-color: red;
+justify-content: center;
+align-items: center;
+transition:all ease-in-out 4s;
+margin: 30px;
+padding: 50px;
+
+}
+#box:hover{
+background-color:rgb(244, 244, 250);
+height: 300px;
+width: 1000px;
+border-radius: 100px;
+font-size: 90px;
+transform: rotate(290deg);
+
+}
+#box :active{
+    background-color: yellow;
+}
